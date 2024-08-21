@@ -1,6 +1,6 @@
 # HHLD Chat Application
 
-This is a **real-time chat application** built using **NextJS**, **Redis**, **MongoDB**, **Websockets**, **Docker**, and implements a **Pub/Sub Model** for handling offline messaging. The application is designed to provide seamless messaging between users, even when one of the users is offline, using the Pub/Sub architecture.
+This is a **real-time chat application** built using **Javascript**, **ReactJS**, **NextJS**, **ReactJS**, **Redis**, **MongoDB**, **Websockets**, **Docker**,**TailwindCSS** and implements a **Pub/Sub Model** for handling offline messaging. The application is designed to provide seamless messaging between users, even when one of the users is offline, using the Pub/Sub architecture.
 
 ## Tech Stack
 
@@ -22,8 +22,8 @@ This is a **real-time chat application** built using **NextJS**, **Redis**, **Mo
 - **Real-Time Messaging**: Powered by Websockets, the application delivers real-time chat experiences. Messages are pushed instantly to the recipient’s interface without needing to refresh the page.
 
 - **Offline Messaging with Pub/Sub Model**: The **Pub/Sub (Publish/Subscribe)** model is implemented using Redis to handle offline messaging. 
-  - When a message is sent to a user who is offline, the message is published to a Redis channel.
-  - When the user comes online, the message is received by subscribing to the appropriate channel. This ensures that no messages are lost, even when users are temporarily unavailable.
+  - When a message is sent to a user who is offline, the message is published to a Redis channel and stored on the MongoDB database.
+  - When the user comes online, the message is received by subscribing to the appropriate channel and from database. This ensures that no messages are lost, even when users are temporarily unavailable.
 
 - **User Authentication**: JWT-based authentication is implemented to secure user sessions. Users must authenticate to join chat rooms and participate in conversations.
 
