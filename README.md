@@ -42,7 +42,7 @@ The **Pub/Sub Model** is key to enabling offline messaging within this applicati
 - Ensure that **Docker** is installed on your machine.
 - You will need a **MongoDB** instance and a **Redis** server running locally or in the cloud.
 
-### Sample Screenshots of Messaging
+## Sample Screenshots of Messaging
 
 ![Screenshot 2024-08-22 013708](https://github.com/user-attachments/assets/24bc8701-a5ac-43d2-8d6b-1f9ba3f15591)
 ![Screenshot 2024-08-22 013714](https://github.com/user-attachments/assets/0111d751-323a-4e5d-bcf1-3a007e2c7867)
