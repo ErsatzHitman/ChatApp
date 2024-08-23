@@ -7,6 +7,7 @@ This is a **real-time chat application** built with **JavaScript**, **ReactJS**,
 ### 🖥️ Frontend
 
 - **NextJS**: The frontend is built using NextJS, a powerful React framework for server-side rendering (SSR) and static site generation (SSG). This helps ensure faster page loads and improves SEO performance, making the application more efficient and scalable.
+- **Tailwind CSS**: Tailwind CSS is used for styling the application, providing utility-first CSS classes that make it easy to build responsive and modern UI components quickly and efficiently.
 
 ### 🗄️ Backend
 
@@ -52,14 +53,7 @@ The **Pub/Sub Model** plays a crucial role in handling offline messaging in this
     ```bash
     docker-compose up
     ```
-
-3. **Run the development server**:
-
-    ```bash
-    npm run dev
-    ```
-
-4. **Access the application**: Open [http://localhost:3000](http://localhost:3000) in your browser.
+3. **Access the application**: Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🎥 Demo
 
