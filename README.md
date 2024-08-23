@@ -69,13 +69,3 @@ Here are a few screenshots of the application:
 ![Screenshot 4](https://github.com/user-attachments/assets/283ec735-9eef-4fec-a9ac-f57f747164ca)
 ![Screenshot 5](https://github.com/user-attachments/assets/17f34ca0-ce84-4d17-9c46-0f8d25b16bd9)
 
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
-
-## 🙏 Acknowledgements
-
-- **Redis** for providing the backbone for offline messaging with the Pub/Sub model.
-- **MongoDB** for its robust and scalable database solution.
-- **Docker** for making deployment and orchestration so much simpler.
-- **WebSockets** for enabling real-time communication.
