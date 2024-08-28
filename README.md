@@ -46,7 +46,7 @@ The **Pub/Sub Model** plays a crucial role in handling offline messaging in this
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ChatApp.git
+   git clone https://github.com/ErsatzHitman/ChatApp.git
    cd hhld-chat-app
 2. **Start Docker containers**:
 
